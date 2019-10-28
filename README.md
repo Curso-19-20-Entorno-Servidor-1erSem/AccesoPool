@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # AvesFranciscoAMP
 Creación de proyecto AvesFranciscoAMP en el que se recolpilan datos de distintas aves que estan insertados previamente en una base de datos llamada pruebasjava dentro de la cual hay una tabla llamada aves.
 
@@ -19,4 +19,5 @@ mysql -u root -p
 =======
 # AccesoPool
 configuración de la base de datos mediante un pool de conexiones.
->>>>>>> origin/master
+# AccesoPool
+Creación de proyecto AccesoPool en el que se realiza la configuración de la base de datos mediante un pool de conexiones
