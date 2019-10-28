@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # AvesFranciscoAMP
 Creación de proyecto AvesFranciscoAMP en el que se recolpilan datos de distintas aves que estan insertados previamente en una base de datos llamada pruebasjava dentro de la cual hay una tabla llamada aves.
 
@@ -15,3 +16,7 @@ sudo mysql -u root -p
 Para Windows, abrimos un terminal como administrador y ejecutamos la misma sentencia sin el sudo
 
 mysql -u root -p
+=======
+# AccesoPool
+configuración de la base de datos mediante un pool de conexiones.
+>>>>>>> origin/master
