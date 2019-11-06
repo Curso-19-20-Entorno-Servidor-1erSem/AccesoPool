@@ -7,6 +7,7 @@ package es.albarregas.persistencia;
 
 
 
+import es.albarregas.Utils.MyLogger;
 import es.albarregas.beans.Ave;
 import java.io.IOException;
 
@@ -45,8 +46,10 @@ public class AccesoBD extends HttpServlet {
         Context contextoInicial=new InitialContext();
         DataSource dataSource=(DataSource)contextoInicial.lookup("java:comp/env/jdbc/APool");
         }catch(NamingException ex){
-            System.out.println("Se ha producido un error en la conexión a la base de datos.");
-            ex.printStackTrace();
+           // System.out.println("Se ha producido un error en la conexión a la base de datos.");
+            //ex.printStackTrace();
+            MyLogger.doLog(ex, Connection.class, "fatal");
+            
         }
     }
 
